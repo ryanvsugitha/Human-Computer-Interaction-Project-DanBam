@@ -1,0 +1,108 @@
+@import "home.css";
+
+.category{
+    padding-top: 50px;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.featured{
+    padding-top: 10px;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+.gambarmenu{
+    height: 180px;
+    width: 220px;
+}
+
+.nama{
+    padding: 15px;
+    background-color: #171616;
+    color: #B457DF;
+    text-align: center;
+    font-family: Arial;
+}
+
+.featurednama{
+    margin: auto;
+    width: 200px;
+    padding: 10px;
+    background-color: #171616;
+    color: #B457DF;
+    text-align: center;
+    font-family: Arial;
+}
+
+.featuredfood{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider-container-food{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-slider-food{
+    position: relative;
+    overflow: hidden;
+}
+
+#slider-food{
+    position: relative;
+}
+
+.images-food{
+    float: left;
+}
+
+.images-food img{
+    width: 220px;
+    height: 180px;
+}
+
+/*=============================*/
+
+#slider-container-bev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-slider-bev{
+    position: relative;
+    overflow: hidden;
+}
+
+#slider-bev{
+    position: relative;
+}
+
+.images-bev{
+    float: left;
+}
+
+.images-bev img{
+    width: 220px;
+    height: 180px;
+}

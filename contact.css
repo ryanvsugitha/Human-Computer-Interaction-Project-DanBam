@@ -1,0 +1,58 @@
+@import "home.css";
+
+.box{
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    
+}   
+.box input[type="text"],.box input[type="email"],.box textarea[type="message"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #B457DF;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+
+.box textarea[type="message"]{
+    font-size: 18px;
+}
+
+.select{
+    font-size: 16px;
+}
+
+.select[type="location"],.select[type="gender"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #B457DF;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+
+
+.box input[type="submit"]{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    padding: 14px 35px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+    border-color: #B457DF;
+}

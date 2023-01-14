@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <script src="validate.js"></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="logo">
+        <img src="./assets/Cuplikan layar 2021-05-24 203507.png" alt="">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a>
+                <ul>
+                    <li><a href="menu.html#food">Food</a></li>
+                    <li><a href="menu.html#drink">Drink</a></li>
+                    <li><a href="menu.html#dessert">Dessert</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+
+    <form class="box" action="contactus.html" method="GET">
+        <div>
+            <label for="name">Name <br></label>
+            <input type="text" name="" placeholder="Write your Name" id="name" required> 
+        </div>
+        <div>
+            <label for="email">Email <br></label>
+            <input type="email" name="" placeholder="Write your E-Mail" id="email" required> 
+        </div>
+        <div>
+            <label for="gender">Gender <br></label>
+            <select class="select" type="gender" name="gender" id="gender">
+                <option value="-1" selected>[pick your gender]</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+            </select>
+            
+        </div>
+        <div>
+            <label for="location">Location <br></label>
+            <select class="select" type="location" name="location" id="location">
+                <option value="-1" selected>[choose your location]</option>
+                <option value="1">Jakarta</option>
+                <option value="2">Central Jakarta</option>
+                <option value="3">Bandung</option>
+            </select>
+            
+        </div>
+        <div>
+            <label for="message">Message <br></label>
+            <textarea type="message" name="" id="message" cols="30" rows="10" required></textarea>
+        </div>
+        <div>
+            <input type="submit" name="" value="Submit" onclick="validate()">
+        </div>
+    </form>
+
+    
+    <div class="dan">
+        <h2>Dan Bam</h2>
+        <h2>Social Media</h2>
+    </div>
+
+    <footer>
+        <div class="">
+           <a href="home.html">Home <br></a> 
+            <a href="#">Menu <br></a>
+            <a href="#">About Us</a>
+        </div>
+
+        <div class="tes">
+           <a href="location.html"> Location <br></a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+
+        <div>
+            <a href="https://www.instagram.com/"><img class="gambar5" src="./assets/instagram.png" alt=""></a>
+            <a href="https://www.facebook.com/"><img class="gambar5" src="./assets/facebook.png" alt=""></a>
+            <a href="https://twitter.com/?lang=en"><img class="gambar5" src="./assets/twitter.png" alt=""></a>
+        </div>
+    </footer>
+
+    <div>
+        <h4>© DanBam 2021. Hak Cipta Dilindungi.</h4>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+@import "home.css";
+
+.aboutusname{
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.konten{
+    padding-top: 20px;
+    margin: auto;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.konten img{
+    width: 220px;
+    height: 200px;
+}
+
+.nama{
+    background-color: #171616;
+    color: #B457DF;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    width: 800px;
+    vertical-align: middle;
+}
